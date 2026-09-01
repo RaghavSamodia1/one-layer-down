@@ -264,6 +264,10 @@
   .rpt p{margin:0 0 15px} .rpt ul{margin:0 0 15px;padding-left:20px} .rpt li{margin-bottom:9px}
   .rpt b, .rpt strong{font-weight:600;color:var(--ink)}
   .rpt a{color:var(--navy)}
+  /* cross-reference to another piece — same page, different section */
+  .rpt a.xlink{color:var(--navy);text-decoration:none;border-bottom:1px solid var(--rule);cursor:pointer}
+  .rpt a.xlink:hover{border-bottom-color:var(--navy)}
+  .rpt a.xlink:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
   .rpt code{font-family:var(--mono);font-size:.86em;background:var(--panel);padding:1px 4px}
 
   /* pull quote — used where a piece turns on something said verbatim */
@@ -715,7 +719,7 @@
 <p><strong>The ID.7 above 66,000 in a second year.</strong> Much of the argument that this segment is enterable without a premium badge rests on it, and a launch-year peak looks identical to a run rate in one year of data.</p>
 <hr>
 <p><strong>Methodology.</strong> EU registration volumes are derived from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631 — a statutory record of every new passenger car registered in the EU — for 2024 and 2025 provisional releases, covering 10.78 million and 10.83 million records. Manufacturer and commercial-name fields are filed as free text by member states and were normalised before aggregation; 99.3% of registrations resolved to a canonical brand. Nameplate volumes were validated against Kraftfahrt-Bundesamt FZ 11 for the German market, where 71 of 77 comparable models agreed within 5%; the 3 Series and 5 Series each reconcile within 1%. Segment classification follows a length rule banded separately for saloons and SUVs. Financial figures are from company reporting and are group-level and global — no manufacturer discloses margin by segment or region, and none is inferred here. Chinese-brand figures have no independent German reference and are unvalidated.</p>
-<p><em>Companion analysis: "MINI's Chinese Cost Base" and "The Largest Withdrawal from China" on China-built output and its duty exposure.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="mini">MINI's Chinese Cost Base</a> and <a class="xlink" href="#" data-view="gm">The Largest Withdrawal from China</a> on China-built output and its duty exposure.</em></p>
   </div>
 </section>
 <section id="invasion" class="view">
@@ -815,7 +819,7 @@
 <p><strong>Whether the 30-model electric and hybrid programme survives.</strong> It is a large commitment in a market where the partnership has lost share for most of a decade.</p>
 <hr>
 <p><strong>Methodology and evidence base.</strong> The GM–SAIC announcement, joint venture terms, export destinations and product commitments are from published reporting dated 4–5 August 2026. Brand-level China sales, market-share history, joint-venture equity income, NEV penetration rates and the historical timeline are from secondary reporting and industry trackers, <strong>not from primary company disclosures, which were not consulted.</strong> Buick, Cadillac and 2024 brand figures are widely reported estimates rather than audited numbers and are marked approximate. Renault and Stellantis peak China volumes are omitted rather than estimated, as no reliable figure was obtained. Unlike others in this series, this piece uses no registration-census data and rests entirely on secondary sources.</p>
-<p><em>Companion analysis: "The Absent European Large Car" on the Stellantis–Dongfeng arrangement at Wuhan, and "MINI's Chinese Cost Base" on the duty exposure of China-built output.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="d-gobig">The Absent European Large Car</a> on the Stellantis–Dongfeng arrangement at Wuhan, and <a class="xlink" href="#" data-view="mini">MINI's Chinese Cost Base</a> on the duty exposure of China-built output.</em></p>
   </div>
 </section>
 <section id="mini" class="view">
@@ -851,7 +855,7 @@
 <p><strong>Whether the Cooper decline continues once JCW filing is normalised.</strong> An 8% fall in the brand's core model is the part of this result that the headline growth figure conceals.</p>
 <hr>
 <p><strong>Methodology.</strong> EU registration volumes are derived from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631, 2024 and 2025 provisional releases. Manufacturer and commercial-name fields are filed as free text by member states and were normalised before aggregation. The German figure was validated against Kraftfahrt-Bundesamt FZ 10, which records 34,647 MINI registrations against 34,582 here — a variance of 0.19%. Model-family grouping is derived from commercial-name strings and is sensitive to trim-level filing, as noted above. Production locations and duty rates are from published reporting, not from the registration data.</p>
-<p><em>Companion analysis: "The Absent European Large Car" on the D and E segments and the Stellantis–Dongfeng arrangement.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="d-gobig">The Absent European Large Car</a> on the D and E segments and the Stellantis–Dongfeng arrangement.</em></p>
   </div>
 </section>
 <section id="india" class="view">
@@ -914,7 +918,7 @@
 <p><strong>Unvalidated.</strong> Indian FY26 volumes and shares are from industry trackers compiled from manufacturer despatches, not from a registration census. Unlike the European work in this series, there is no independent second source cross-check behind these figures and no variance can be stated. Chinese brand-level volumes are secondary estimates carried over from "The Largest Withdrawal from China" and are approximate. Honda's China figures are rounded as reported.</p>
 <p><strong>Derived.</strong> The "all others" row and the 6.99% residual are computed by subtraction from the stated total. Percentage shares are recomputed from the unit figures and reconcile to 100%.</p>
 <p><strong>Judgement.</strong> The reading of the two deals as a reversal rather than a replication; the claim that foreign control has been a precondition for foreign success in India; the assessment of what the Honda arrangement is for.</p>
-<p><em>Companion analysis: "The Defensive Joint Venture" on the historical failure rate of defensive joint ventures; "The Largest Withdrawal from China" on where the China joint-venture model ended; "The End of the Global Platform" on the relocation of engineering.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="invasion">The Defensive Joint Venture</a> on the historical failure rate of defensive joint ventures; <a class="xlink" href="#" data-view="gm">The Largest Withdrawal from China</a> on where the China joint-venture model ended; <a class="xlink" href="#" data-view="rnd">The End of the Global Platform</a> on the relocation of engineering.</em></p>
   </div>
 </section>
 <section id="indiatax" class="view">
@@ -965,7 +969,7 @@
 <p><strong>Derived.</strong> All figures in the arithmetic table are the author's own computation from the stated rates on an assumed equal pre-tax price, chosen for illustration rather than drawn from any actual model. The 21.5:1 ratio follows from those assumptions and moves with the prices chosen; the direction does not.</p>
 <p><strong>Unvalidated, with a basis mismatch to note.</strong> FY26 electric car volumes are retail registrations from industry trackers. The 4.3% penetration figure divides that retail numerator by a wholesale despatch denominator of roughly 4.68 million; the two are not the same measure and the true retail penetration will differ slightly. No independent census exists for Indian volumes, so no variance can be stated. The "all others" row is derived by subtraction and the table sums to the stated total.</p>
 <p><strong>Judgement.</strong> That the interaction between the two schedules is unintended rather than deliberate; the assessment that the mix will move up-market; the three corrective options.</p>
-<p><em>Companion analysis: "The Inverted Partnership" on the structure of the Indian market these incentives operate in.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="india">The Inverted Partnership</a> on the structure of the Indian market these incentives operate in.</em></p>
   </div>
 </section>
 <section id="alliance1" class="view">
@@ -1386,7 +1390,7 @@
 <p><strong>Unvalidated.</strong> Ford, GM and Toyota production and import splits are from secondary reporting, not company filings. GM's tariff cost is a company guidance range and is cited as such; one source gives up to $4bn and the wider range is not reconciled here. No registration-census data exists for the US market in this series, so unlike the European work none of these volumes has an independent second source.</p>
 <p><strong>Derived.</strong> Ford's ~16% import share is computed from the two figures given; the other shares are as reported.</p>
 <p><strong>Judgement.</strong> The reading of the JLR arrangement as a product deal rather than a localisation; the marginal-versus-average distinction; the claim that the schedule favours incumbent US supply chains over new entrants; and the grouping of the four responses as one pattern.</p>
-<p><em>Companion analysis: "The End of the Global Platform" on contract engineering; "The Inverted Partnership" on the same capital-light instruments appearing elsewhere; and the Volkswagen in America brief on Audi's halted plant.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="rnd">The End of the Global Platform</a> on contract engineering; <a class="xlink" href="#" data-view="india">The Inverted Partnership</a> on the same capital-light instruments appearing elsewhere; and <a class="xlink" href="#" data-view="b-vw">the Volkswagen in America brief</a> on Audi's halted plant.</em></p>
   </div>
 </section>
 <section id="jlrscale" class="view">
@@ -1524,7 +1528,7 @@
 <p><strong>Derived.</strong> The 39.7% segment share, the 22% margin over the Escalade, the 1.83:1 architecture ratio and the 151,117 total are computed from the table.</p>
 <p><strong>Judgement.</strong> The reading of the 50,000-unit remark as a disclosure of minimum efficient scale; the conclusion that this is a scale project rather than a tariff one; the definition of the rugged segment and which nameplates belong in it, which is a judgement call that moves the totals; the argument that the L663's success is evidence against the architecture the segment otherwise runs on; and the placement of JLR alongside the other four cases.</p>
 <p><strong>Judgement, and heavily so, in the product section.</strong> The two-product structure, the argument that a large three-row should carry the Discovery name, the cannibalisation rankings, the export reframing of the scale threshold and the brand-equity argument are all analysis. <strong>No two-product plan has been announced, no Discovery-badged US vehicle has been suggested by anyone at JLR, and no export intention has been stated.</strong> That section reads what the evidence would support; it does not report what is happening.</p>
-<p><em>Companion analysis: "The Inverted Tariff" on the tariff schedule; "The End of the Global Platform" and the Renault alliance series on the same rent-rather-than-build instrument.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="tariffs">The Inverted Tariff</a> on the tariff schedule; <a class="xlink" href="#" data-view="rnd">The End of the Global Platform</a> and the Renault alliance series on the same rent-rather-than-build instrument.</em></p>
   </div>
 </section>
 <section id="subbrand" class="view">
@@ -1759,7 +1763,7 @@
 <p><strong>Statistically weak, and labelled.</strong> The brand-level correlation of r = −0.74 is computed on six brands. The critical value at n=6 is about 0.81, so it is <strong>not significant</strong>, and it is presented as consistent with the mechanism rather than as evidence for it. The model-level correlation of r = +0.16 across 36 nameplates is reported in full, including that it runs against the argument, together with the two confounds — powertrain and cannibalisation — that account for it.</p>
 <p><strong>Unvalidated.</strong> Days-of-supply figures are an October 2025 snapshot from a third-party inventory tracker, not manufacturer data, and are not an annual average. Market share of 12.66% (2019) and 8.80% (Q4 2023) is from filings as reported. The 2029 date for the next Cherokee is reported, not confirmed.</p>
 <p><strong>Judgement.</strong> The choice of volume-weighted generation age as the metric; the reading of the model-level result as confounded rather than contradictory; the use of Audi as a controlled test; the framing of the "100% refreshed showroom" commitment as a diagnosis; the attribution of the operating swing rather than the headline loss; and the implication for JLR.</p>
-<p><em>Companion analysis: "The Scale JLR Cannot Build" on the JLR–Stellantis arrangement.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="jlrscale">The Scale JLR Cannot Build</a> on the JLR–Stellantis arrangement.</em></p>
   </div>
 </section>
 <section id="bmwbuy" class="view">
@@ -1818,7 +1822,7 @@
 <p><strong>Whether net financial assets keep rising without deployment.</strong> A balance sheet growing indefinitely eventually becomes a governance question rather than a strategic one, and "we are being disciplined" has a shelf life with shareholders.</p>
 <hr>
 <p><strong>Methodology.</strong> European registration volumes are from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631, 2024 and 2025 provisional releases. Balance-sheet figures are from company reporting with basis and dates recorded in <code>data/balance-sheet/sources.json</code>. The Rover transaction figures — £800m purchase, £731m final-year operating loss, £1.92bn exceptional charge, £1.79bn group result, £1.85bn Land Rover sale — are from contemporaneous reporting. The Rolls-Royce naming-rights account is documented industry history; the specific consideration should be verified before publication. The joint-venture history is general industry record. <strong>The assessment of acquisition candidates is analytical judgement, not reporting, and no transaction discussed is known to be under negotiation.</strong></p>
-<p><em>Companion analysis: "The Defensive Joint Venture" on why the defensive-structure reflex has failed before.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="invasion">The Defensive Joint Venture</a> on why the defensive-structure reflex has failed before.</em></p>
   </div>
 </section>
 <section id="rnd" class="view">
@@ -1866,7 +1870,7 @@
 <p><strong>Whether Chinese European R&amp;D produces Europe-specific product rather than adaptation.</strong> Munich offices doing homologation and tuning are one thing. A model conceived in Munich for European buyers would be the same step Honda took in Ohio in the 1970s, and it would arrive with a cost base European manufacturers cannot match.</p>
 <hr>
 <p><strong>Methodology and evidence base.</strong> Toyota's IEM by TOYOTA restructuring, Honda's Ye series and its Momenta and CATL partnerships, the Stellantis–Tata ARGOS arrangement, and the Chinese manufacturers' European R&amp;D establishments are all from published reporting and company statements. Chevrolet's China volumes are from secondary reporting and industry trackers. The account of Japanese manufacturers' American R&amp;D history is general industry history rather than a sourced claim, and the specific establishment dates should be verified before publication. ARGOS is consistently reported as the licensed architecture but has not been officially named by Stellantis, which has confirmed only that the platform is Tata's.</p>
-<p><em>Companion analysis: "The Absent European Large Car" on the Stellantis–Dongfeng arrangement, and "The Largest Withdrawal from China" on what happened to a manufacturer that did not localise.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="d-gobig">The Absent European Large Car</a> on the Stellantis–Dongfeng arrangement, and <a class="xlink" href="#" data-view="gm">The Largest Withdrawal from China</a> on what happened to a manufacturer that did not localise.</em></p>
   </div>
 </section>
 <section id="landlord" class="view">
@@ -2329,7 +2333,7 @@
 <p><strong>Whether the A110 successor reaches the US with a combustion engine.</strong> That is the clearest signal of how Alpine reads American demand, and it would put a French performance brand into the US on the powertrain it had publicly abandoned.</p>
 <hr>
 <p><strong>Methodology and evidence base.</strong> European registration volumes for Alpine are derived from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631, 2024 and 2025 provisional releases, and are consistent with the treatment used across this series. <strong>US figures, dealer-network changes, the AutoNation discussions and Alpine's product plans are drawn from published reporting and are not independently verified here</strong> — no equivalent statutory registration dataset was used for the American market. Alpine's US-relevant volume is an estimate derived by excluding the A290 on segment grounds, not a manufacturer figure. US dealer counts are not reliably published: cited figures span 191 to 342 and derive largely from location-data aggregators, so per-dealer volumes are given as a range and the argument rests on the ratio, which is insensitive to the count. Readers should treat the European numbers and the American narrative as having different evidentiary weight.</p>
-<p><em>Companion analysis: "Renault's Two Alliances" on the divergence between the Nissan and Geely relationships, and "The Absent European Large Car" on Alpine's unused headroom in Europe.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="d-twoall">Renault's Two Alliances</a> on the divergence between the Nissan and Geely relationships, and <a class="xlink" href="#" data-view="d-gobig">The Absent European Large Car</a> on Alpine's unused headroom in Europe.</em></p>
   </div>
 </section>
 <section id="d-gobig" class="view">
@@ -2376,7 +2380,7 @@
 <p><strong>Durability of the ID.7 figure.</strong> Much of the E-segment argument rests on it. If 66,766 proves to be a launch-year peak rather than a run rate, the evidence that a mainstream badge can hold the segment weakens.</p>
 <hr>
 <p><strong>Methodology.</strong> EU registration volumes are derived from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631 — a statutory record of every new passenger car registered in the EU — for 2024 and 2025 provisional releases, covering 10.78 million and 10.83 million records respectively. Manufacturer and commercial-name fields are filed as free text by member states and were normalised before aggregation; 99.3% of registrations resolved to a canonical brand. Nameplate volumes were validated against Kraftfahrt-Bundesamt FZ 11 for the German market, where 71 of 77 comparable models agreed within 5%. Segment classification follows a length rule banded separately for saloons and SUVs. Chinese-brand figures have no independent German reference and are unvalidated.</p>
-<p><em>Companion analysis: the landlord–tenant framework on asset-level supply agreements, and the NEXA series on brand-gradient constraints in emerging markets.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="landlord">the landlord–tenant framework</a> on asset-level supply agreements, and the NEXA series on brand-gradient constraints in emerging markets.</em></p>
   </div>
 </section>
 <section id="d-premium" class="view">
@@ -2479,7 +2483,7 @@
 <p><strong>Whether the large-SUV decline continues.</strong> X5/X6, X7 and XM fell together in 2025. If that repeats, it is a segment movement rather than a set of individual model cycles.</p>
 <hr>
 <p><strong>Methodology.</strong> EU registration volumes are derived from the European Environment Agency's CO2 monitoring dataset under Regulation (EU) 2019/631, 2024 and 2025 provisional releases. Manufacturer and commercial-name fields are filed as free text by member states and were normalised before aggregation; BMW model families were reconstructed from variant-level strings, including M-performance designations, which are filed separately in most markets. German figures were validated against Kraftfahrt-Bundesamt FZ 10: the 3 Series, 5 Series, 4 Series and 8 Series each reconcile within 1.1%; the X3 diverges 7.1% and the 7 Series 11.6%, and both are flagged in the text. Financial figures are from BMW Group reporting.</p>
-<p><em>Companion analysis: "The Absent European Large Car" on the D and E segments, and "MINI's Chinese Cost Base" on the group's other brand.</em></p>
+<p><em>Companion analysis: <a class="xlink" href="#" data-view="d-gobig">The Absent European Large Car</a> on the D and E segments, and <a class="xlink" href="#" data-view="mini">MINI's Chinese Cost Base</a> on the group's other brand.</em></p>
   </div>
 </section>
 <section id="b-vw" class="view">
@@ -2892,7 +2896,7 @@ function show(which){
   window.scrollTo(0,0);
 }
 // contents entries and the back link carry data-view too
-document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>show(b.dataset.view));
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=e=>{e.preventDefault();show(b.dataset.view);});
 /* nav-toggle:end */
 </script>
 </body>
